@@ -183,7 +183,7 @@ void Interface()
   {
     ifstream is("Ourlist.txt");
     if(is.is_open())
-    I_O for_salers(is,cout);
+    I_O for_readers(is,cout);
   }
   
 }
